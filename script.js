@@ -1,14 +1,18 @@
-
 // PROMPT & ALERT FUNCTIONS
-/*
-let buttonClick = function (){
-  let username = prompt(`What's your name?`);
-  alert(`Hello, ${username}!`);
-}
-*/
 
-// VARIABLES & DATA TYPES
-let firstName = "John";
-let lastName = "Saba";
+// let email = prompt;
+// let age = prompt;
+// let gender = prompt;
 
-console.log();
+//CONDITIONAL FUNCTIONS
+let buttonClick = function () {
+  let email = prompt(`What's your email address?`);
+  let age = prompt(`How old are you?`);
+  let gender = prompt(`What's your gender?`);
+  alert(`Thank you. I see you are a ${gender}.`);
+};
+
+gender = "male";
+
+// DATA TYPE CHECKING
+console.log(typeof gender);
