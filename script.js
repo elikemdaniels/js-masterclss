@@ -5,14 +5,19 @@
 // let gender = prompt;
 
 //CONDITIONAL FUNCTIONS
-let buttonClick = function () {
-  let email = prompt(`What's your email address?`);
-  let age = prompt(`How old are you?`);
-  let gender = prompt(`What's your gender?`);
-  alert(`Thank you. I see you are a ${gender}.`);
+// let buttonClick = function () {
+//   let email = prompt(`What's your email address?`);
+//   let age = prompt(`How old are you?`);
+//   let gender = prompt(`What's your gender?`);
+//   alert(`Thank you. I see you are a ${gender}.`);
+// };
+
+// gender = "male";
+
+// // DATA TYPE CHECKING
+// console.log(typeof gender);
+
+// ADDED TO CART FUNCTION
+let addedToCart = function () {
+  alert("Added to cart");
 };
-
-gender = "male";
-
-// DATA TYPE CHECKING
-console.log(typeof gender);
