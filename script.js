@@ -18,6 +18,13 @@
 // console.log(typeof gender);
 
 // ADDED TO CART FUNCTION
-let addedToCart = function () {
-  alert("Added to cart");
+let bgChanger = document.getElementById("duda");
+bgChanger.style.backgroundColor = "#0e262b";
+
+let buttonChanger = document.getElementById("butta");
+buttonChanger.style.backgroundColor = "#fafafa";
+buttonChanger.innerText = "Get Started";
+
+let buttonFunction = function () {
+  buttonChanger.innerHTML = "Clicked";
 };
