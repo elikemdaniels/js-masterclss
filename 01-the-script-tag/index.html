@@ -8,7 +8,48 @@
   <body>
     <!-- Using the script tag to write JS code -->
     <script>
-      alert('Hello, JavaScript');
+      // async function fetchUsers() {
+      //   try {
+      //     const response = await fetch('https://randomuser.me/api/');
+      //     const data = await response.json();
+      //     const randomUser = data.results[0];
+
+      //     console.log(randomUser);
+      //   } catch (error) {
+      //     console.error('Error handling request.', error);
+      //   }
+      // }
+
+      // fetchUsers();
+      // async function randomQuotes() {
+      //   try {
+      //     const response = await fetch('https://dummyjson.com/quotes/random');
+      //     const data = await response.json();
+      //     const randomQuote = data.quote;
+      //     const quoteAuthor = data.author;
+
+      //     console.log(`${randomQuote} \n \nby ${quoteAuthor}`);
+      //   } catch (error) {
+      //     console.error('Error fetching data.', error);
+      //   }
+      // }
+
+      // randomQuotes();
+
+      const randomer = async () => {
+        try {
+          const response = await fetch('https://dummyjson.com/quotes/random');
+          const data = await response.json();
+          const randomQuote = data.quote;
+          const quoteAuthor = data.author;
+
+          console.log(`${randomQuote} \n \nby ${quoteAuthor}`);
+        } catch (error) {
+          console.error('Not working as expected.', error);
+        }
+      };
+
+      randomer();
     </script>
   </body>
 </html>
