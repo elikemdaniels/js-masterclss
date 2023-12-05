@@ -9,7 +9,7 @@ const randomer = async () => {
 
     console.log(`${randomQuote} \n\nby ${quoteAuthor}`);
   } catch (error) {
-    console.error('Not working as expected.', error);
+    console.error('Error fetching data from API.', error);
   }
 };
 randomer();
